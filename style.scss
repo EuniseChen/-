@@ -2218,7 +2218,7 @@ main {
             .pet-food2{
               height: 35% !important;
             }
-            
+
           }
           .pet-food-right{
             width: 70% !important;
@@ -2484,6 +2484,7 @@ main {
 
     .dialog {
       flex-direction: column;
+      justify-content: flex-start !important;
       min-height: 900px !important;
       padding: 10px;
 
@@ -2517,7 +2518,7 @@ main {
         .from-us-1,
         .from-us-2 {
           width: 300px !important;
-          padding: 30px;
+          padding: 20px;
           margin-left: 50px;
           margin-bottom: 20px;
 
@@ -2539,6 +2540,7 @@ main {
 
   @media screen and (max-width: 576px) {
     .dialog {
+      padding: 0;
       p {
         font-size: font(1.5) !important;
       }
@@ -2549,12 +2551,23 @@ main {
 
         .from-us-1,
         .from-us-2 {
-          width: 300px;
-          padding: 30px;
+          width: 350px;
+          padding: 10px !important;
           margin-left: 50px;
           margin-bottom: 10px;
         }
       }
+    }
+  }
+
+  @media screen and (max-width: 428px) {
+    .question {
+      width: 120px;
+      height: 30px;
+    }
+
+    .dialog {
+      width: 400px;
     }
   }
 
