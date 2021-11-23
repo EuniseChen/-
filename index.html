@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.svg">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css">
+  <title>Homecafe</title>
+</head>
+
+<body>
+  <!--彈出一個full-screen頁面  -->
+  <div id="mask">
+    <div id="modal">
+      <button><i class="bi bi-x close-btn"></i></button>
+    </div>
+  </div>
+  <!--這個頁面會覆蓋掉整個body  -->
+
+  <main>
+    <div class="nav-mobile">
+      <img class="logo-mobile" src="./images/banner/icons/nav-icon.svg" alt="navLogo">
+      <div class="nav-banner">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+          viewBox="0 0 425.2 283.5" style="enable-background: new 0 0 425.2 283.5" xml:space="preserve">
+          <g id="CAT">
+            <g>
+              <!--cat-->
+              <g>
+                <path class="st0"
+                  d="M159.6,254.3c-1.8,0-34.7,1.3-46-2.2c-7.8-1.6-25.5,2.2-43.3-5.3c-16.1,0.9-29.6-3.7-29-6.1
+				c0.6-2.2,7.8-9.6,12.6-11.8c-0.8-1.9-1.4-3.9-2-6.1c-1.2-4.9-1.5-9.3-1.1-13.3c-5-2.1-11.5-6.8-12.4-8.6
+				c-1-2.1,9.3-8.1,23.2-10.7c12.1-9.5,30.8-9.9,36.7-3.5c-2.2-2.8-6.8-20.7-6.4-28.8c0.4-8.4,9.9-8.5,14.6,4.2
+				c2.4,6.6,12.4,16.2,17,16.2c4.6,0,23.8-8.4,24.2-11.2c0.4-2.8,2.8-16.5,7.7-17.5c-3.4-2-12.8-12.4-7.7-19.6
+				c5.7-8.2,27.2,8.1,42.6,9.9c15.4,1.8,56.5,8.3,56.5,62.8c27-0.4,31.7-19.3,26.2-31.4c-5.6-12.3-37.6-25.5-38.7-37.8
+				c-1.1-12.3,13-14.7,12.7-3.3c-0.3,8.1,24.6,15.4,35.3,32c9.6,14.9,9.9,52.2-36.4,52.2C245.8,264.2,168.4,259.9,159.6,254.3z" />
+                <g>
+                  <path class="st1" d="M153.7,135.1c1-2,8.3-1.4,5.5,3.8C156.7,143.9,152.5,137.4,153.7,135.1z" />
+                  <path class="st1" d="M153.6,130.3c0.5-0.9,3.9-0.7,2.6,1.8C155,134.5,153,131.4,153.6,130.3z" />
+                  <path class="st1" d="M149.9,133.1c0.5-0.9,3.9-0.7,2.6,1.8C151.3,137.3,149.3,134.2,149.9,133.1z" />
+                  <path class="st1" d="M149.7,137.7c0.5-0.9,3.9-0.7,2.6,1.8C151.1,141.9,149.1,138.8,149.7,137.7z" />
+                </g>
+                <g>
+                  <path class="st1" d="M167.3,247.3c-0.5-2.5,6.3-7.2,7.7-0.6C176.2,252.9,167.9,250.2,167.3,247.3z" />
+                  <path class="st1" d="M163.7,243.1c-0.2-1.2,3-3.4,3.6-0.3C168,245.8,164,244.5,163.7,243.1z" />
+                  <path class="st1" d="M162.4,248.3c-0.2-1.2,3-3.4,3.6-0.3C166.7,250.9,162.7,249.6,162.4,248.3z" />
+                  <path class="st1" d="M165.6,252.5c-0.2-1.2,3-3.4,3.6-0.3C169.9,255.2,165.9,253.9,165.6,252.5z" />
+                </g>
+                <path class="st1"
+                  d="M56.1,234c2-0.3,6.9,6.3,7.4,6.9c0.6,0.6-15.2,0.8-15.7-0.8C47.3,238.4,54.2,234.3,56.1,234z" />
+                <path class="st1"
+                  d="M53.6,204.5c2-0.2,5.4-7.7,5.8-8.3c0.4-0.7-15,2.5-15.2,4.2C44.1,202.1,51.7,204.6,53.6,204.5z" />
+                <path class="st2" d="M92.8,164.6c2.8,1.4,10.7,1.7,14.9-0.6c0,0-4.2-10.4-8.5-11.2c-4.2-0.8-7.2-0.2-7.2,6S92.8,164.6,92.8,164.6
+				z" />
+                <path class="st2 right-hand" d="M98.8,221.6c3.6,2.2,12.9-1.4,14.3-3.3c0,0-3.3-12.5-5.5-13.3c-2.2-0.8-7.7,1.6-8.7,5.4
+				C98,214.3,98.8,221.6,98.8,221.6z" />
+                <path class="st2" d="M229.1,154.7c-11,10.2-19,6.3-19.3-0.8c-0.3-7.2-7.2-8.3-6.9-11.8c0,0,11.8,3.2,14.5,5.4
+				C220.2,149.6,229.1,154.7,229.1,154.7z" />
+                <path class="st3"
+                  d="M203,150.1c3.3,1.3,3.2,4.6,0.2,6c-3,1.4-5.5-3.6-4.1-5.2C200.5,149.2,201.6,149.5,203,150.1z" />
+                <path class="st2" d="M79.9,212.8c-0.1-2.4,1.3-4.6,3.4-5.6c-2.2-0.7-3.8-2.7-3.9-5.2c-0.2-3.2,2.3-5.9,5.5-6.1
+				c3.2-0.2,5.9,2.3,6.1,5.5c0.1,2.4-1.3,4.6-3.4,5.6c2.2,0.7,3.8,2.7,3.9,5.2c0.2,3.2-2.3,5.9-5.5,6.1
+				C82.7,218.5,80,216,79.9,212.8z" />
+                <path class="st2" d="M236.1,125.7c3.5-2.7,6.7-4.8,9-1c2.3,3.8,2,3.3,2.1,5.8c0.1,2.5,2.5,4.4,2.5,4.4l-0.7,0.2
+				c-2.2,4-10.5,5.4-12.3,4.2l0.1-0.2l0,0.2C235,138.1,232.6,128.4,236.1,125.7z" />
+                <path class="st2" d="M128.6,177.1c-7.1,3.9,6.9,22.2,14.7,17.2c7.8-5-0.8-13.8,4-17.8c4.7-4,0.7-10.9,0.7-10.9s1.2,2.2-5.4,5.4
+				C136,174.3,128.6,177.1,128.6,177.1z" />
+              </g>
+              <g>
+                <path class="st4" d="M188.5,233.1c-19.3,0.4-41.4,12.1-28.8,21.2" />
+                <path class="st4" d="M155.5,149.6c6.1,3.8,18.9,7,18.9,7" />
+                <path class="st4 right-hand"
+                  d="M126.9,236.8c-18.7-12.7-13.2-35.8-23.4-31.1c-11.7,5.4-1.6,35.7,8.5,42.7" />
+                <path class="st4"
+                  d="M159.6,254.3c-1.8,0-34.7,1.3-46-2.2c-7.8-1.6-25.5,2.2-43.3-5.3c-16.1,0.9-29.6-3.7-29-6.1
+				c0.6-2.2,7.8-9.6,12.6-11.8c-0.8-1.9-1.4-3.9-2-6.1c-1.2-4.9-1.5-9.3-1.1-13.3c-5-2.1-11.5-6.8-12.4-8.6
+				c-1-2.1,9.3-8.1,23.2-10.7c12.1-9.5,30.8-9.9,36.7-3.5c-2.2-2.8-6.8-20.7-6.4-28.8c0.4-8.4,9.9-8.5,14.6,4.2
+				c2.4,6.6,12.4,16.2,17,16.2c4.6,0,23.8-8.4,24.2-11.2c0.4-2.8,2.8-16.5,7.7-17.5c-3.4-2-12.8-12.4-7.7-19.6
+				c5.7-8.2,27.2,8.1,42.6,9.9c15.4,1.8,56.5,8.3,56.5,62.8c27-0.4,31.7-19.3,26.2-31.4c-5.6-12.3-37.6-25.5-38.7-37.8
+				c-1.1-12.3,13-14.7,12.7-3.3c-0.3,8.1,24.6,15.4,35.3,32c9.6,14.9,9.9,52.2-36.4,52.2C245.8,264.2,168.4,259.9,159.6,254.3z" />
+                <g>
+                  <line class="st4" x1="216" y1="198.2" x2="222.9" y2="202.4" />
+                  <line class="st4" x1="216.8" y1="203.3" x2="222.2" y2="197.3" />
+                </g>
+                <g class="angry">
+                  <path class="st4" d="M60.2,228c0.8,0,2.6,0,2.6-2.6" />
+                  <path class="st4" d="M60.2,229.9c0.8,0,2.6,0,2.6,2.6" />
+                  <path class="st4" d="M67.4,228c-0.8,0-2.6,0-2.6-2.6" />
+                  <path class="st4" d="M67.4,229.9c-0.8,0-2.6,0-2.6,2.6" />
+                </g>
+                <path class="st2"
+                  d="M203,150.1c3.3,1.3,3.2,4.6,0.2,6c-3,1.4-5.5-3.6-4.1-5.2C200.5,149.2,201.6,149.5,203,150.1z" />
+                <path class="st4" d="M79.9,212.8c-0.1-2.4,1.3-4.6,3.4-5.6c-2.2-0.7-3.8-2.7-3.9-5.2c-0.2-3.2,2.3-5.9,5.5-6.1
+				c3.2-0.2,5.9,2.3,6.1,5.5c0.1,2.4-1.3,4.6-3.4,5.6c2.2,0.7,3.8,2.7,3.9,5.2c0.2,3.2-2.3,5.9-5.5,6.1
+				C82.7,218.5,80,216,79.9,212.8z" />
+                <path class="st5" d="M77.3,208.6c0.9,6.6,7.1,0.6,6.6-1.7C83.4,204.2,76,199.9,77.3,208.6z" />
+                <g>
+                  <path class="st5" d="M71.3,215.9c0.5-0.2,1.1-0.2,1.7-0.2c2.5,0,4.5,1.4,4.5,3.2c0,1.8-2,3.2-4.5,3.2c-1.5,0-2.8-0.5-3.6-1.3
+					L71.3,215.9z" />
+                </g>
+                <g>
+                  <path class="st5" d="M69.9,202.6c0.5,0.1,1,0.2,1.5,0.2c2.2,0,4.1-1.3,4.1-2.9c0-1.6-1.8-2.9-4.1-2.9c-1.3,0-2.5,0.5-3.3,1.2
+					L69.9,202.6z" />
+                </g>
+                <g>
+                  <line class="st4" x1="80.5" y1="189.2" x2="74.4" y2="179.4" />
+                  <line class="st4" x1="82.9" y1="188.2" x2="80" y2="177.1" />
+                  <line class="st4" x1="85.4" y1="187.9" x2="86.5" y2="176.5" />
+                </g>
+                <g>
+                  <line class="st4" x1="82.2" y1="228.4" x2="76.2" y2="238.1" />
+                  <line class="st4" x1="84.7" y1="229.4" x2="81.8" y2="240.5" />
+                  <line class="st4" x1="87.2" y1="229.7" x2="88.2" y2="241" />
+                </g>
+                <path class="st4" d="M162.9,177.1c-13.3,10.6-9.4,38.6,3.2,45" />
+              </g>
+            </g>
+            <g>
+              <!--ball-->
+              <g>
+                <circle class="ball-bg" cx="73.4" cy="86.9" r="19.5" />
+                <path class="ball" d="M58.9,74c4.3,6.1,20.3,12.2,33.5,10.4" />
+                <path class="ball" d="M54,87.2c4.3,6.1,21.8,12.6,35,10.8" />
+                <path class="ball" d="M56.3,78.3c4.3,6.1,22,13.3,36.4,10.6" />
+                <path class="ball" d="M54.8,82.7c4.3,6.1,22,13.3,36.4,10.6" />
+                <path class="ball" d="M77.1,67.8c-5.1,0.1-12.6,4-14.9,8.9" />
+                <path class="ball" d="M80.5,69.1c-5.2,0.7-14,6.8-14.9,10.4" />
+                <path class="ball" d="M84,70.6c-4.1,1-13.6,7.9-14.6,10.5" />
+                <path class="ball" d="M74.4,76.7c1.3,1.4,2.7,5,2.6,6.4" />
+                <path class="ball" d="M78.5,74.5c1.4,1.8,4.1,6.8,4,9.4" />
+                <path class="ball" d="M81.2,71.9c3,2.4,6.1,6.9,6.4,12.5" />
+                <path class="ball" d="M71.6,96.9c-2.3,3.4-9.6,4.5-11.2,4.3" />
+                <path class="ball" d="M76.4,98.3c-1.4,3.1-8.9,6.1-11.5,6.1" />
+                <path class="ball" d="M81.4,98.7c-0.6,2.1-3.9,6-7.9,7.7" />
+                <path class="ball" d="M64.1,94.6c-0.7,2.1,2.6,5.1,2.6,5.1" />
+                <path class="ball" d="M58.9,91.6c-0.4,2.3,2.1,7.1,4.3,8.8" />
+              </g>
+              <g>
+                <circle class="ball" cx="73.4" cy="86.9" r="19.5" />
+                <path class="ball" d="M58.9,74c4.3,6.1,20.3,12.2,33.5,10.4" />
+                <path class="ball" d="M54,87.2c4.3,6.1,21.8,12.6,35,10.8" />
+                <path class="ball" d="M56.3,78.3c4.3,6.1,22,13.3,36.4,10.6" />
+                <path class="ball" d="M54.8,82.7c4.3,6.1,22,13.3,36.4,10.6" />
+                <path class="ball" d="M77.1,67.8c-5.1,0.1-12.6,4-14.9,8.9" />
+                <path class="ball" d="M80.5,69.1c-5.2,0.7-14,6.8-14.9,10.4" />
+                <path class="ball" d="M84,70.6c-4.1,1-13.6,7.9-14.6,10.5" />
+                <path class="ball" d="M74.4,76.7c1.3,1.4,2.7,5,2.6,6.4" />
+                <path class="ball" d="M78.5,74.5c1.4,1.8,4.1,6.8,4,9.4" />
+                <path class="ball" d="M81.2,71.9c3,2.4,6.1,6.9,6.4,12.5" />
+                <path class="ball" d="M71.6,96.9c-2.3,3.4-9.6,4.5-11.2,4.3" />
+                <path class="ball" d="M76.4,98.3c-1.4,3.1-8.9,6.1-11.5,6.1" />
+                <path class="ball" d="M81.4,98.7c-0.6,2.1-3.9,6-7.9,7.7" />
+                <path class="ball" d="M64.1,94.6c-0.7,2.1,2.6,5.1,2.6,5.1" />
+                <path class="ball" d="M58.9,91.6c-0.4,2.3,2.1,7.1,4.3,8.8" />
+              </g>
+              <line class="ball extend" x1="73.4" y1="0" x2="73.4" y2="67.1" />
+            </g>
+          </g>
+        </svg>
+        <ul class="nav-items-mobile">
+          <li class="nav-item-mobile">
+            <a href="#" class="nav-link-mobile">返回首頁</a>
+          </li>
+          <li class="nav-item-mobile">
+            <a href="#concept" class="nav-link-mobile">店家理念</a>
+          </li>
+          <li class="nav-item-mobile">
+            <a href="#environment" class="nav-link-mobile">店家環境</a>
+          </li>
+          <li class="nav-item-mobile">
+            <a href="#food-card" class="nav-link-mobile">好食餐點</a>
+          </li>
+          <li class="nav-item-mobile">
+            <a href="#menu" class="nav-link-mobile">幸福菜單</a>
+          </li>
+          <li class="nav-item-mobile">
+            <a href="#adoption-info" class="nav-link-mobile">寵物認養</a>
+          </li>
+          <li class="nav-item-mobile">
+            <a href="#story" class="nav-link-mobile">店家資訊</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <section id="banner">
+      <!-- banner開始 -->
+      <!-- 導航列開始 -->
+      <div class="nav">
+        <ul class="nav-items">
+          <li class="logo-item">
+            <a href="#"><img src="./images/banner/logo/small-logo.svg" alt=""></a>
+          </li>
+          <li class="nav-item">
+            <a href="#concept" class="nav-link">店家理念</a>
+          </li>
+          <li class="nav-item">
+            <a href="#environment" class="nav-link">店家環境</a>
+          </li>
+          <li class="nav-item">
+            <a href="#food-card" class="nav-link">好食餐點</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu" class="nav-link">幸福菜單</a>
+          </li>
+          <li class="nav-item">
+            <a href="#adoption-info" class="nav-link">寵物認養</a>
+          </li>
+          <li class="nav-item">
+            <a href="#story" class="nav-link">店家資訊</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 導航列結束 -->
+      <!-- 店家的logo與slogan開始 -->
+      <div class="logo"></div>
+      <h1 class="logo-text">Homecafe 幸福。好食 寵物認養主題餐廳</h1>
+      <p class="slogan">-致力推廣『以認養代替購買』讓幸福，從Homecafe開始！-</p>
+      <!-- 店家的logo與slogan結束 -->
+      <!-- 店家連結開始 -->
+      <ul class="icons">
+        <li class="icon">
+          <img src="./images/banner/icons/fb.svg" alt="">
+        </li>
+        <li class="icon">
+          <img src="./images/banner/icons/ig.svg" alt="">
+        </li>
+        <li class="icon">
+          <img src="./images/banner/icons/fp.svg" alt="">
+        </li>
+        <li class="icon">
+          <img src="./images/banner/icons/ue.svg" alt="">
+        </li>
+      </ul>
+      <!-- 店家連結結束 -->
+    </section> <!-- banner結束 -->
+
+    <section id="concept">
+      <!-- 店家理念區塊開始 -->
+      <article>
+        <div class="text">
+          <h2 class="concept-title">店家理念</h2>
+          <img class="dog-img" src="./images/店家理念/HandDraw-Dog-01.png" alt="">
+          <p class="concept-text">
+            Homecafe是一間以〝寵物認養〞作為宗旨的複合式餐廳，不同於一般〝寵物餐廳〞，我們是流浪貓狗的〝暫時之家〞，目標幫他們找到充滿愛與關懷的永久之家！我們提供精緻有溫度的飲食與服務，用心規劃舒適整潔的認養區，專注於改善流浪動物處境。
+            本店不接受捐款，以店內營收支撐陪伴著十來隻毛孩子在這裡等家。
+          </p>
+        </div>
+        <img class="concept-img" src="./images/店家理念/idea01.jpg" alt="狗狗用可愛的眼神望著上面">
+      </article>
+      <article>
+        <img class="concept-img" src="./images/店家理念/idea02.jpg" alt="一群狗狗在跟客人玩">
+        <div class="text">
+          <p class="concept-text">本店十年來收容了五百多隻流浪毛孩，幫這些毛孩子找到歸屬。平均救援一隻毛孩就耗資三到五萬，五百多隻的毛孩的救助費用也近乎千萬以上，而您在本店的消費盈利也會投資在動物救援之上。
+            這裡有幸福，有好食。邀請你來我們家作客，聊天和吃飯的同時，給這些毛孩子親人的機會，並讓有緣人帶牠們回家。</p>
+          <img class="cat-img" src="./images/店家理念/HandDraw-Cat-01.png" alt="">
+        </div>
+      </article>
+    </section> <!-- 店家理念區塊結束 -->
+
+    <section id="environment">
+      <!-- 店家環境區塊開始 -->
+      <div class="environment-img">
+        <h1>店內環境</h1>
+        <div class="large-img">
+          <div class="filter1">
+            <i class="bi bi-zoom-in full-screen-1"></i>
+          </div>
+        </div>
+        <div class="environment-text1">
+          <h2>吧台區</h2>
+          <p>將最新鮮的食材，以最美味的方式現場烹飪</p>
+        </div>
+
+        <div class="small-img1">
+          <div class="filter2">
+            <i class="bi bi-zoom-in full-screen-2"></i>
+          </div>
+        </div>
+        <div class="environment-text2">
+          <h2>一樓用餐區</h2>
+          <p>可以與您的毛孩一起開心用餐的安心場所</p>
+        </div>
+
+        <div class="small-img2">
+          <div class="filter3">
+            <i class="bi bi-zoom-in full-screen-3"></i>
+          </div>
+        </div>
+        <div class="environment-text3">
+          <h2>二樓用餐區</h2>
+          <p>關愛浪浪的您，也能在這裡陪貓狗一起用餐</p>
+        </div>
+      </div>
+      <img class="cat-shadow" src="./images/店家環境/Shadow-Cat-01.png" alt="">
+      <div class="environment-text4">
+        <p>期盼店內的這一個小空間，能幫助流浪貓狗有暫時的安身之處，進一步與來吃飯的客人牽線，帶給彼此快樂與愛</p>
+      </div>
+      <img class="dialog-img" src="./images/店家環境/dialog-box.svg" alt="">
+    </section> <!-- 店家環境區塊結束 -->
+
+    <section id="food-card">
+      <!-- 好食餐點區塊開始 -->
+      <h1>好食餐點</h1>
+      <!-- 全部有兩個row，每個row有三個column，每個column分為前面與後面兩張圖 -->
+      <!-- The first row -->
+      <div class="row">
+        <div class="column">
+          <div class="food-img">
+            <!-- 卡片前面內容物 -->
+            <div class="front">
+              <div class="front-img front-img1">
+                <div class="cover">
+                  <span>本店使用</span>
+                  <span>牛肉來源</span>
+                </div>
+              </div>
+            </div>
+            <!-- 卡片後面內容物 -->
+            <div class="back">
+              <img src="./images/好食餐點/icon-beef-01.png" alt="">
+              <h2>採用澳洲牛肉</h2>
+              <p>天然健康兼具紥實美味的口感</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="food-img">
+            <div class="front">
+              <div class="front-img front-img2">
+                <div class="cover">
+                  <span>本店使用</span>
+                  <span>豬肉來源</span>
+                </div>
+              </div>
+            </div>
+            <div class="back">
+              <img src="./images/好食餐點/icon-pork-01.png" alt="">
+              <h2>採用台灣豬肉</h2>
+              <p>支持口感彈牙的國產台灣豬</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="food-img">
+            <div class="front">
+              <div class="front-img front-img3">
+                <div class="cover">
+                  <span>本店使用</span>
+                  <span>食材料理</span>
+                </div>
+              </div>
+            </div>
+            <div class="back">
+              <img src="./images/好食餐點/icon-cook-01.png" alt="">
+              <h2>絕不使用料理包</h2>
+              <p>使用天然食材和高湯等親自燉煮</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="food-img">
+            <div class="front">
+              <div class="front-img front-img4">
+                <div class="cover">
+                  <span>熱銷禮盒</span>
+                  <span>手作水果茶</span>
+                </div>
+              </div>
+            </div>
+            <div class="back">
+              <img src="./images/好食餐點/icon-fruit tea-01.png" alt="">
+              <h2>新鮮水果手作茶</h2>
+              <p>含有新鮮果粒的手工熬煮果醬茶</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="food-img">
+            <div class="front">
+              <div class="front-img front-img5">
+                <div class="cover">
+                  <span>齊心抗疫</span>
+                  <span>外帶餐點</span>
+                </div>
+              </div>
+            </div>
+            <div class="back">
+              <img src="./images/好食餐點/icon-mask-01.png" alt="">
+              <h2>防疫外帶餐點</h2>
+              <p>衛生安全但分量不減少的Lite餐盒</p>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="food-img">
+            <div class="front">
+              <div class="front-img front-img6">
+                <div class="cover">
+                  <span>毛孩最愛</span>
+                  <span>點心食品</span>
+                </div>
+              </div>
+            </div>
+            <div class="back">
+              <img src="./images/好食餐點/icon-petfood-01.png" alt="">
+              <h2>毛孩最愛點心</h2>
+              <p>採低溫烘烤保存新鮮營養的美味</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="dog-shadow" src="./images/好食餐點/Shadow-Dog-01.png" alt="">
+    </section> <!-- 好食餐點區塊結束 -->
+
+    <section id="menu">
+      <!-- 幸福菜單區塊開始 -->
+      <div class="menu-type">
+        <h1>幸福菜單</h1>
+        <!--菜單導航-->
+        <ul class="menu-items">
+          <li class="menu-item item1">意大利麵</li>
+          <li class="menu-item item2">暖心鍋物</li>
+          <li class="menu-item item3">主廚料理</li>
+          <li class="menu-item item4">活力輕食</li>
+          <li class="menu-item item5">好食點心</li>
+          <li class="menu-item item6">好食飲品</li>
+          <li class="menu-item item7 active">寵物鮮食</li>
+        </ul>
+      </div>
+      <!-- 每個分類的詳細菜單 -->
+
+      <div class="content">
+        <div class="pasta-content">
+          <!-- 義大利麵 -->
+          <div class="pasta-intro">
+            <!--文字部分-->
+            <div class="pasta-title">
+              <img src="./images/幸福菜單/icons/foot-print.svg" alt="">
+              <h2>義大利麵</h2>
+            </div>
+            <div class="row">
+              <div class="column1">
+                <div class="meal-content">
+                  <h3>清炒蒜辣義大利麵</h3>
+                  <span>$250</span>
+                </div>
+                <div class="meal-content">
+                  <h3>白酒蛤蠣意大利麵</h3>
+                  <span>$250</span>
+                </div>
+                <div class="meal-content">
+                  <h3>野菇鮮蔬義大利麵</h3>
+                  <span>$250</span>
+                </div>
+                <div class="meal-content">
+                  <h3>經典番茄肉醬義大利麵</h3>
+                  <span>$250</span>
+                </div>
+                <div class="meal-content">
+                  <h3>明太子海油培根義大利麵</h3>
+                  <span>$250</span>
+                </div>
+                <div class="meal-content">
+                  <h3>地中海白醬海鮮義大利麵</h3>
+                  <span>$260</span>
+                </div>
+              </div>
+              <div class="column2">
+                <div class="meal-content">
+                  <h3>塔香青醬海鮮義大利麵</h3>
+                  <span>$260</span>
+                </div>
+                <div class="meal-content">
+                  <h3>韓式泡菜海鮮義大利麵</h3>
+                  <span>$260</span>
+                </div>
+                <div class="img">
+                  <img class="dog" src="./images/幸福菜單/icons/dog.svg" alt="">
+                  <img class="cat" src="./images/幸福菜單/icons/cat.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--文字部分-->
+          <div class="pasta-pic">
+            <!--圖片部分-->
+            <img src="./images/幸福菜單/義大利麵/pasta01.jpg"></img>
+          </div>
+          <!--圖片部分-->
+        </div>
+      </div>
+      <div class="content">
+        <div class="hot-pot-content">
+          <!-- 暖心鍋物 -->
+          <div class="hot-pot-intro">
+            <!--文字部分-->
+            <div class="hot-pot-title">
+              <img src="./images/幸福菜單/icons/foot-print.svg" alt="">
+              <h2>暖心鍋物</h2>
+            </div>
+            <div class="meal-content">
+              <div class="meal-description">
+                <div class="meal-title">
+                  <h3>剝皮辣椒雞湯鍋</h3>
+                  <span>$360</span>
+                </div>
+                <p class="words">白飯／冬粉／寬粉／科學麵 （附餐擇一）</p>
+              </div>
+              <div class="row">
+                <div class="column1">
+                  <span>雞蛋</span>
+                  <span>白飯</span>
+                  <span>冬粉</span>
+                  <span>寬粉</span>
+                  <span>科學麵</span>
+                  <span>豆皮</span>
+                  <span>金針菇</span>
+                  <span>高麗菜</span>
+                </div>
+                <div class="column2">
+                  <span>$10</span>
+                  <span>$15</span>
+                  <span>$15</span>
+                  <span>$15</span>
+                  <span>$15</span>
+                  <span>$50</span>
+                  <span>$40</span>
+                  <span>$50</span>
+                </div>
+                <div class="column1">
+                  <span>綜合蔬菜</span>
+                  <span>菇類拼盤</span>
+                  <span>蛤蠣</span>
+                  <span>白蝦</span>
+                  <span>鯛魚片</span>
+                  <span>豬肉片</span>
+                  <span>海鮮盤</span>
+                </div>
+                <div class="column2">
+                  <span>$120</span>
+                  <span>$120</span>
+                  <span>$80</span>
+                  <span>$80</span>
+                  <span>$80</span>
+                  <span>$120</span>
+                  <span>$120</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--文字部分-->
+          <div class="hot-pot-pic">
+            <!--圖片部分-->
+            <div class="hot-pot-left">
+              <div class="left1">
+                <img src="./images/幸福菜單/暖心鍋物/hotpot-leftt01.jpg" alt="">
+              </div>
+              <div class="left2">
+                <img src="./images/幸福菜單/暖心鍋物/hotpot-left02.jpg" alt="">
+              </div>
+            </div>
+            <div class="hot-pot-right">
+              <img src="./images/幸福菜單/暖心鍋物/hotpot-right01.jpg" alt="">
+            </div>
+          </div>
+          <!--圖片部分-->
+        </div>
+      </div>
+      <div class="content">
+        <div class="chef-content">
+          <!-- 主廚料理 -->
+          <div class="chef-intro">
+            <div class="chef-title">
+              <img src="./images/幸福菜單/icons/foot-print.svg" alt="">
+              <h2>主廚料理</h2>
+            </div>
+            <hr>
+            <div class="meal-content">
+              <h3>香煎挪威鯖魚</h3>
+              <span>$260</span>
+            </div>
+            <div class="meal-content">
+              <h3>酥炸去骨雞腿排</h3>
+              <span>$260</span>
+            </div>
+            <div class="meal-content">
+              <h3>泰式風味椒麻雞</h3>
+              <span>$260</span>
+            </div>
+            <div class="meal-content">
+              <h3>古早味客家扣肉</h3>
+              <span>$260</span>
+            </div>
+            <div class="meal-content">
+              <div class="meal-title">
+                <h3>日式黃金炸豬排</h3>
+                <p>（蜂蜜芥末／原味番茄醬／和風醬）</p>
+              </div>
+              <span>$260</span>
+            </div>
+
+          </div>
+          <div class="chef-pic">
+            <div class="chef-left">
+              <div class="chef1">
+                <img src="./images/幸福菜單/主廚料理/chef-left01.jpg" alt="" class="">
+              </div>
+              <div class="chef2">
+                <img src="./images/幸福菜單/主廚料理/chef-left02.jpg" alt="">
+              </div>
+            </div>
+            <div class="chef-right">
+              <img src="./images/幸福菜單/主廚料理/chef-right.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="light-content">
+          <!-- 活力輕食-->
+          <div class="light-intro">
+            <!--文字部分-->
+            <div class="light-title">
+              <img src="./images/幸福菜單/icons/foot-print.svg" alt="">
+              <h2>活力輕食</h2>
+            </div>
+            <div class="row">
+              <div class="column1">
+                <div class="meal-content1">
+                  <h3>香煎挪威鯖魚</h3>
+                  <span>$260</span>
+                </div>
+                <div class="meal-content1">
+                  <h3>酥炸去骨雞腿排</h3>
+                  <span>$260</span>
+                </div>
+                <div class="meal-content1">
+                  <h3>泰式風味椒麻雞</h3>
+                  <span>$260</span>
+                </div>
+                <div class="meal-content1">
+                  <h3>古早味客家扣肉</h3>
+                  <span>$260</span>
+                </div>
+                <div class="meal-content2">
+                  <div class="meal-title">
+                    <h3>日式黃金炸豬排</h3>
+                    <p>（蜂蜜芥末／原味番茄醬／和風醬）</p>
+                  </div>
+                  <span class="words">$260</span>
+                </div>
+              </div>
+              <div class="column2">
+                <div class="meal-content3">
+                  <h3>附餐</h3>
+                  <p>高鐵地瓜／香蒜軟法／紫米御飯糰 （三選二）</p>
+                </div>
+                <div class="meal-content3">
+                  <h3>主廚沙拉</h3>
+                  <p>鮮蔬沙拉佐胡麻醬／鮮蔬沙拉佐柚子醬</p>
+                </div>
+                <div class="img">
+                  <img class="dog" src="./images/幸福菜單/icons/dog.svg" alt="">
+                  <img class="cat" src="./images/幸福菜單/icons/cat.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--文字部分-->
+
+          <div class="light-pic">
+            <!--圖片部分-->
+            <div class="light1">
+              <img src="./images/幸福菜單/活力輕食/light01.jpg" alt="">
+            </div>
+            <div class="light2">
+              <img src="./images/幸福菜單/活力輕食/light02.jpg" alt="">
+            </div>
+          </div>
+          <!--圖片部分-->
+        </div>
+      </div>
+      <div class="content">
+        <div class="snack-content">
+          <!-- 好食點心 -->
+          <div class="snack-intro">
+            <!--文字部分-->
+            <div class="snack-title">
+              <img src="./images/幸福菜單/icons/foot-print.svg" alt="">
+              <h2>好食點心</h2>
+            </div>
+            <div class="row">
+              <div class="column1">
+                <div class="meal-content">
+                  <h3>香蒜軟法</h3>
+                  <span>$50</span>
+                </div>
+                <div class="meal-content">
+                  <h3>美式脆薯</h3>
+                  <span>$100</span>
+                </div>
+                <div class="meal-content">
+                  <h3>麥克愛吃的雞塊</h3>
+                  <span>$100</span>
+                </div>
+                <div class="meal-content">
+                  <h3>酥炸雙菇</h3>
+                  <span>$150</span>
+                </div>
+                <div class="meal-content">
+                  <h3>香辣雞翅</h3>
+                  <span>$150</span>
+                </div>
+                <div class="meal-content">
+                  <h3>炸物拼盤</h3>
+                  <span>$300</span>
+                </div>
+              </div>
+              <div class="column2">
+                <div class="meal-content">
+                  <h3>特製椒鹽雞丁</h3>
+                  <span>$150</span>
+                </div>
+                <div class="img">
+                  <img class="dog" src="./images/幸福菜單/icons/dog.svg" alt="">
+                  <img class="cat" src="./images/幸福菜單/icons/cat.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--文字部分-->
+          <div class="snack-pic">
+            <!--圖片部分-->
+            <img src="./images/幸福菜單/好食點心/fries01.jpg" alt="">
+          </div>
+          <!--圖片部分-->
+        </div>
+      </div>
+      <div class="content">
+        <div class="drink-content">
+          <!-- 好食飲品 -->
+          <div class="drink-intro">
+            <!--文字部分-->
+            <div class="drink-title">
+              <img src="./images/幸福菜單/icons/foot-print.svg" alt="">
+              <h2>好食飲品</h2>
+            </div>
+            <div class="row">
+              <div class="column1">
+                <div class="meal-content">
+                  <h3 class="words">可樂</h3>
+                  <span>$90</span>
+                </div>
+                <div class="meal-content">
+                  <h3 class="words">紅茶</h3>
+                  <span>$90</span>
+                </div>
+                <div class="meal-content">
+                  <h3 class="words">鮮奶茶</h3>
+                  <span>$100</span>
+                </div>
+                <div class="meal-content">
+                  <h3 class="words">香柚茶</h3>
+                  <span>$140</span>
+                </div>
+                <div class="meal-content">
+                  <h3 class="words">水果茶</h3>
+                  <span>$150</span>
+                </div>
+                <div class="meal-content">
+                  <h3 class="words">蘋果牛奶</h3>
+                  <span>$130</span>
+                </div>
+              </div>
+              <div class="column2">
+                <div class="meal-content">
+                  <h3 class="words">可可牛奶</h3>
+                  <span>$130</span>
+                </div>
+                <div class="meal-content">
+                  <h3 class="words">抹茶拿鐵</h3>
+                  <span>$130</span>
+                </div>
+                <div class="meal-content">
+                  <h3 class="words">奇異果汁</h3>
+                  <span>$130</span>
+                </div>
+                <div class="meal-content">
+                  <h3 class="words">蘋果玫瑰茶</h3>
+                  <span>$140</span>
+                </div>
+                <div class="meal-content">
+                  <h3 class="words">奇亞籽活力鮮果飲</h3>
+                  <span>$140</span>
+                </div>
+                <div class="meal-content">
+                  <h3 class="words">膠原CC鮮果飲</h3>
+                  <span>$150</span>
+                </div>
+              </div>
+              <div class="column3">
+                <div class="meal-content">
+                  <h3 class="words">季節限定楊梅汁</h3>
+                  <span>$150</span>
+                </div>
+                <div class="meal-content">
+                  <h3 class="words">美式咖啡</h3>
+                  <span>$90</span>
+                </div>
+                <div class="meal-content">
+                  <h3 class="words">卡布奇諾</h3>
+                  <span>$110</span>
+                </div>
+                <div class="meal-content">
+                  <h3 class="words">原味拿鐵</h3>
+                  <span>$120</span>
+                </div>
+                <div class="meal-content">
+                  <h3 class="words">香草拿鐵</h3>
+                  <span>$130</span>
+                </div>
+                <div class="meal-content">
+                  <h3 class="words">焦糖拿鐵</h3>
+                  <span>$130</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--文字部分-->
+          <div class="drink-pic">
+            <img src="./images/幸福菜單/好食飲品/drink01.jpg" alt="">
+          </div>
+          <!--圖片部分-->
+        </div>
+      </div>
+      <div class="content now">
+        <div class="pet-food-content">
+          <!-- 寵物鮮食 -->
+          <div class="pet-food-intro">
+            <div class="pet-food-title">
+              <img src="./images/幸福菜單/icons/foot-print.svg" alt="">
+              <h2>寵物鮮食</h2>
+            </div>
+            <hr>
+            <div class="meal-content">
+              <h3>毛孩A餐</h3>
+              <span>$99</span>
+            </div>
+            <div class="meal-content">
+              <h3>毛孩B餐</h3>
+              <span>$139</span>
+            </div>
+            <div class="meal-content">
+              <h3>毛孩C餐</h3>
+              <span>$179</span>
+            </div>
+          </div>
+          <img class="dog" src="./images/幸福菜單/icons/dog.svg" alt="">
+          <img class="cat" src="./images/幸福菜單/icons/cat.svg" alt="">
+          <div class="pet-food-pic">
+            <div class="pet-food-left">
+              <div class="pet-food1">
+                <img src="./images/幸福菜單/寵物鮮食/petfood-left01.jpg" alt="">
+              </div>
+              <div class="pet-food2">
+                <img src="./images/幸福菜單/寵物鮮食/petfood-left02.jpg" alt="">
+              </div>
+            </div>
+            <div class="pet-food-right">
+              <img src="./images/幸福菜單/寵物鮮食/petfood-right.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> <!-- 幸福菜單區塊結束 -->
+
+    <section id="adoption-info">
+      <!-- 寵物認養區塊開始-->
+      <h1>寵物認養</h1>
+      <div class="questions">
+
+        <input type="radio" name="question" class="radio" id="q1">
+        <label class="question btn-q1" for="q1">認養流程</label>
+
+        <input type="radio" name="question" class="radio" id="q2">
+        <label class="question btn-q2" for="q2">領養條件</label>
+
+        <input type="radio" name="question" class="radio" id="q3">
+        <label class="question btn-q3" for="q3">認養須知</label>
+
+      </div>
+      <div class="dialog">
+        <div class="profile-pic"></div>
+        <div class="message">
+          <p class="from-customers" data-aos="fade-right">哈囉！我想請問貴店領養毛孩的流程和手續~</p>
+          <p class="from-us-1" data-aos="fade-left" data-aos-delay="1000">
+            歡迎預約來現場看過貓狗🙂有認養意願後找老闆談談詢問相關細節（聊聊天）<br>
+            以下是認養流程：<br>
+            🐾一週冷靜期<br>
+            🐾思考後確定自己真的想養<br>
+            🐾主動聯繫老闆<br>
+            🐾帶貓狗回家一起過一輩子😎</p>
+          <p class="from-us-2" data-aos="fade-left" data-aos-delay="2000">我們並不會禁止情侶或是學生領養喔，但是學生的話會需要您先
+            跟家長溝通，家長同意後也會讓您挑選心愛的毛孩帶回家喔！</p>
+        </div>
+        <div class="logo-pic"></div>
+      </div>
+    </section> <!-- 寵物認養區塊結束-->
+
+    <section id="story">
+      <!-- 下一站，家區塊開始 -->
+
+      <h1>下一站，家</h1>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide1"><img src="./images/下一站家/下一站家-01.jpg">
+            <div class="img-words words-1">
+              <h2>親人的藏獒Mango</h2>
+              <p>獒犬Mango在牠又黑又大的身體住著一個少女的靈魂，牠是隻親人又愛撒嬌的”大型犬”！
+                因為好脾氣以及帥氣的外表成為店內的人氣王，只是身形壯碩及年紀略高，說想認養牠的人很多，實際付諸行動的卻很少！終於讓他等到了真心真意愛他的媽咪!全家特地請假從台北來到台中接Mango去台北當王子! </p>
+              <a href="https://www.facebook.com/homecafe58/">更了解我</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide2"><img src="./images/下一站家/下一站家-02.jpg">
+            <div class="img-words words-2">
+              <h2>金針菇&秀珍菇</h2>
+              <p>
+                哥哥秀珍菇和妹妹金針菇從小一起相依為命的流浪，在被救援到Homecafe找家時，哥哥秀珍菇先被好心的家庭收養了，沒想到失去哥哥的金針菇在籠子裡面踱步、哭泣。後來領養人回家跟家人溝通之後，隔天霸氣的回來表示願意一起領養金針菇，相依為命的兄妹不用分開了，現在幾乎天天抱在一起睡、還會互相舔毛、洗澡，生活的非常幸福！
+              </p>
+              <a href="https://www.facebook.com/homecafe58/">更了解我</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide3"><img src="./images/下一站家/下一站家-03.jpg">
+            <div class="img-words words-3">
+              <h2>天生2.5隻腳，樂天小豹</h2>
+              <p>米克斯汪汪「小豹」只有2.5隻腳，牠一出生就時左前肢殘缺，右前肢萎縮變型。被店主從新屋收容所帶回HomeCafe照顧。
+                但小豹幸運地碰到了愛牠的飼主Rita，讓牠在愛中成長，更學會一套專屬自己的行動方式，和一般狗狗同樣地敏捷、愛玩。
+                認養毛孩， 或許不能改變這個世界一丁點，但是卻可以改變這隻毛孩的一生！</p>
+              <a href="https://www.facebook.com/homecafe58/">更了解我</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide4"><img src="./images/下一站家/下一站家-04.jpg">
+            <div class="img-words words-4">
+              <h2>親人的藏獒Mango</h2>
+              <p>獒犬Mango在牠又黑又大的身體住著一個少女的靈魂，牠是隻親人又愛撒嬌的”大型犬”！
+                因為好脾氣以及帥氣的外表成為店內的人氣王，只是身形壯碩及年紀略高，說想認養牠的人很多，實際付諸行動的卻很少！終於讓他等到了真心真意愛他的媽咪!全家特地請假從台北來到台中接Mango去台北當王子! </p>
+              <a href="https://www.facebook.com/homecafe58/">更了解我</a>
+            </div>
+          </div>
+          <div class="swiper-slide slide5"><img src="./images/下一站家/下一站家-05.jpg">
+            <div class="img-words words-5">
+              <h2>花好&月圓</h2>
+              <p>中秋前夕三隻被救援的貓咪：花好、月圓和小月餅來到Homecafe。
+                小月餅還沒來的及PO文求包養，就被有緣人帶回家當寶貝了，剩下可愛的兄妹花好與月圓，兄妹倆感情好到每天都睡在一起互相舔毛，而且也碰到了愛他們的夫妻，願意把他們一起帶回家。就這樣，花好與月圓與小月餅三隻都很幸福的在家裡當了主子！
+              </p>
+              <a href="https://www.facebook.com/homecafe58/">更了解我</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> <!-- 下一站，家區塊結束 -->
+  </main>
+
+  <!-- footer開始 -->
+  <footer>
+    <div class="business-hours">
+      <div class="footer-title">
+        <img src="./images/footer/黃貓掌.png" alt="">
+        <h1>營業時間</h1>
+      </div>
+      <div class="row">
+        <div class="column">
+          <h2 class="weekdays-title">週一</h2>
+          <div class="line-break"></div>
+          <h2>休息</h2>
+        </div>
+
+        <div class="column">
+          <h2 class="weekdays-title">週二</h2>
+          <div class="line-break"></div>
+          <h2>休息</h2>
+        </div>
+
+        <div class="column">
+          <h2 class="weekdays-title">週三</h2>
+          <div class="line-break"></div>
+          <h2>12:00 ~ 15:00</h2>
+          <div class="line-break"></div>
+          <h2>17:00 ~ 21:00</h2>
+        </div>
+
+        <div class="column">
+          <h2 class="weekdays-title">週四</h2>
+          <div class="line-break"></div>
+          <h2>12:00 ~ 15:00</h2>
+          <div class="line-break"></div>
+          <h2>17:00 ~ 21:00</h2>
+        </div>
+        <div class="column">
+          <h2 class="weekdays-title">週五</h2>
+          <div class="line-break"></div>
+          <h2>12:00 ~ 15:00</h2>
+          <div class="line-break"></div>
+          <h2>17:00 ~ 21:00</h2>
+        </div>
+        <div class="column">
+          <h2 class="weekdays-title">週六</h2>
+          <div class="line-break"></div>
+          <h2>12:00 ~ 15:00</h2>
+          <div class="line-break"></div>
+          <h2>17:00 ~ 21:00</h2>
+        </div>
+        <div class="column">
+          <h2 class="weekdays-title">週日</h2>
+          <div class="line-break"></div>
+          <h2>12:00 ~ 15:00</h2>
+          <div class="line-break"></div>
+          <h2>17:00 ~ 21:00</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="line">
+      <hr />
+    </div>
+
+    <div class="contact-details">
+      <div class="detail-1">
+        <div class="footer-title">
+          <img src="./images/footer/黃貓掌.png" alt="">
+        <h1>地址</h1>
+        </div>
+        <h2>臺中市北區興進路58號</h2>
+      </div>
+      <div class="detail-2">
+        <div class="footer-title">
+          <img src="./images/footer/黃貓掌.png" alt="">
+          <h1>電話</h1>
+        </div>
+        <h2>04-2233-7229</h2>
+      </div>
+      <div class="detail-3">
+        <div class="footer-title">
+          <img src="./images/footer/黃貓掌.png" alt="">
+          <h1>信箱</h1>
+        </div>
+        <h2>kate0523523@gmail.com</h2>
+      </div>
+      <div></div>
+    </div>
+
+    <div class="line">
+      <hr />
+    </div>
+
+    <div class="related-groups">
+      <h1>相關公益團體</h1>
+      <ul class="related-groups-icons">
+        <li class="icon">
+          <img src="./images/footer/Else-Logo01.png" alt="">
+        </li>
+        <li class="icon">
+          <img src="./images/footer/Else-Logo02.png" alt="">
+        </li>
+        <li class="icon">
+          <img src="./images/footer/Else-Logo03.png" alt="">
+        </li>
+        <li class="icon">
+          <img src="./images/footer/Else-Logo04.png" alt="">
+        </li>
+        <li class="icon">
+          <img src="./images/footer/Else-Logo05.png" alt="">
+        </li>
+      </ul>
+
+      <div class="copyright">
+        <span>© Homecafe. All rights reserved.</span>
+      </div>
+    </div>
+
+  </footer>
+  <!-- footer結束 -->
+
+  <!-- javascript 區塊 -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
