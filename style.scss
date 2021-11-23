@@ -1009,8 +1009,8 @@ main {
 
     // 義大利麵菜單製作開始
     .pasta-content {
-      @include menu-content-rwd;
-      width: 110%;
+      @include menu-content;
+      width: 100%;
 
       .pasta-intro {
         width: 73%;
@@ -1097,6 +1097,7 @@ main {
         }
       }
     }
+
     // 義大利麵菜單製作结束
 
     // // 義大利麵菜單rwd製作
